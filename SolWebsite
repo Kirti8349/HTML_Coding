@@ -1,0 +1,423 @@
+<html>
+<head>
+<title>SollutionsWebsite</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <style>
+  
+  * {
+    box-sizing:border-box;
+    font-family:sans-serif;
+  }
+  
+  .bgcolor  {
+    background-color:#3b065e;
+  }
+  
+  .navbar-custom {
+    background-color: #f2f2f2;
+  }
+  
+  .card-img-top1 {
+    height:30px;
+    width:70px;
+    margin:30px 50px;
+  }
+  
+  .card-img-top2 {
+    float:center;
+    margin-top: 20%;
+    margin-left: 35%;
+  }
+  
+  .bg-image {
+    background-image: url('http://images01.nicepage.io/c461c07a441a5d220e8feb1a/76dcaa3cb25559a09b76edf5/yyy.jpg');
+    max-width:100%;
+    height:auto;
+  }
+  
+  .space {
+    margin-top:40px;
+    margin-left: 60px;
+    padding:20px; 
+    line-height: 1.2;
+  }
+  
+  .lshift {
+    margin-left:80px;
+    line-height: 1.6;
+  }
+  
+  .button {
+    background-color: dodgerblue; 
+    color:white; 
+    border:none;
+    font-size:20px;
+    border-radius:50px;
+    padding:2% 10%;
+    margin:10% 15%;
+    text-decoration:none;
+  }
+
+  .card1 {
+    background-color:#29b7dd;
+    color:white;
+  }
+  
+  .card2 {
+    background-color:#8b72ee;
+    color:white;
+  }
+
+  .card3 {
+    background-color:#5d3be7;
+    color:white;
+  }
+
+  .card4 {
+    background-color:#bd72ef;
+    color:white;
+  }
+  
+  .section3 {
+    font-weight:700;
+    font-size:4rem;
+    line-height: 1.6;
+    word-wrap: break-word;
+  }
+  
+  ol,li {
+    list-style:none;
+  }
+  
+  .list {
+    margin:10% 1%;
+    padding:10% 0%;
+  }
+  
+  .thick {
+    font-weight:700;
+  }
+  
+  .lnheight {
+    line-height:2rem;
+  }
+  
+  .section5 {
+    background-color:#3b065e;
+    color:white;
+  }
+  
+  img {
+    position:relative;
+  }
+  
+  sec2img {
+    height:80%;
+    width:80%;
+    position:relative;
+    float:center;
+  }
+  
+  image1 {
+    position:absolute;
+    z-index:1;
+    float:right;
+  }
+  
+  image2 {
+    position:relative;
+    z-index:2;
+  }
+  
+  .border  {
+    border-style:solid;
+    border-color:dodgerblue;
+    border-width:10px;
+  }
+  
+  .black {
+    background-color:#333333;
+    color:white;
+  }
+  
+  .last  {
+    text-align:center;
+    padding:2%;
+    line-height:1.6;
+    font-size:14px;
+  }
+
+  </style>
+</head>
+
+<body>
+<!--<nav class="navbar navbar-expand-sm navbar-custom">
+  <a class="navbar-brand" href="#">
+    <img src="Second_Website/logo_w.png" alt="logo" style="width:120px;">
+  </a>
+  
+  <ul class="navbar-nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <img src= "Second_Website/responsive-desktop.png" style= "height:32px;width:32px;">
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <img src= "Second_Website/responsive-laptop_2.png" style= "height:32px;width:32px;">
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <img src= "Second_Website/responsive-tablet_3.png" style= "height:32px;width:32px;">
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <img src= "Second_Website/responsive-phone-horizontal_4.png" style= "height:32px;width:32px%;">
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <img src= "Second_Website/responsive-tablet_5.png" style= "height:32px;width:32px;">
+      </a>
+    </li></ul>
+    
+    <div class= "d-flex justify-content-end"><a href= "#">
+      <img src= "Second_Website/icon-close.png"></a>
+    </div>
+</nav>-->
+<div class= "container-fluid">
+  <div class= "row bg-image">
+    <div class= "col-sm-5">
+      <img class="card-img-top1" src="Second_Website/default-logo.png" alt="Logo image"><br>
+      <h1 class="space font-weight-bold text-white">Web Software Developers</h1>
+      <p class="h6 lshift text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p><br>
+      <p class="h6 py-2 lshift text-white">Image from <a href="#" style= "backgroundcolor: dodgerblue; color: white;text-decoration:underline;">Freepik</p><br>
+      <a href= "#" class= "lshift mt-0 mb-5 button">READ MORE</a>
+    </div>
+    <div class= "col-sm-7">
+      <div style= "width:90%;height:100%;">
+        <img src= "Second_Website/Section1.jpg" class="sec1img img-fluid mx-auto mb-5 d-block">
+    </div>
+  </div>
+</div> 
+</div>
+
+<div class= "container-fluid">
+  <div class= "row">
+    <div class= "col-sm-12"><br>
+    <p class= "h1 text-center font-weight-bold my-4">Key Features</p>
+    <p class= "text-center my-4">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+    </div>
+  </div>
+
+  <div class= "row">
+    <div class= "col-sm-6 ml-5 pl-5">
+      <div>
+        <img src="https://images01.nicepage.io/c461c07a441a5d220e8feb1a/4502b6935af0533d9d632233/fffffff-min.jpg" class= "img-fluid">
+      </div>
+    </div>
+    <div class= col-sm-5>
+    <div class="card-columns">
+      <div class="card card1" style= "width:15rem;">
+        <img class="card-img-top" src="Second_Website/remote_desktop.png" alt="Card image">
+        <div class="card-body text-center">
+          <p class="card-text">Development</p>
+        </div>
+      </div>
+      <div class="card card2" style= "width:15rem;">
+        <img class="card-img-top" src="Second_Website/4icon.jpeg" alt="Card image">
+        <div class="card-body text-center">
+          <p class="card-text">Design</p>
+        </div>
+      </div>
+      <div class="card card3" style= "width:15rem;">
+        <img class="card-img-top" src="Second_Website/bag2icon.jpg" alt="Card image">
+        <div class="card-body text-center">
+          <p class="card-text">Top Skills</p>
+        </div>
+      </div>
+      <div class="card card4" style= "width:15rem;">
+        <img class="card-img-top" src="Second_Website/images.png" alt="Card image">
+        <div class="card-body text-center">
+          <p class="card-text">Responsive</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div class= "col-sm-12">
+  <p class= "text-left p-5 m-5">Image from <a href= "#" style= "color:black;text-decoration: underline">Freepik</a></p>
+</div>
+
+<div class= "container-fluid bg-image">
+  <div class= "row text-white">
+    <div class= "col-sm-8 lshift">
+      <p class= "section3">Data Visualization</p>
+      <img src= "https://images01.nicepage.io/c461c07a441a5d220e8feb1a/1335557df2ab5ecab97e8c93/ssssss.jpg" class="img-fluid mx-auto d-block">
+    </div>
+
+    <div class= "col-sm-3">
+    <ol class= "list">
+       <li class= "list">
+         <h4 class= "font-weight-bold">01. GOALS</h4>
+         <ol>
+           <li><p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+           <a href="#" style="color:white;text-decoration:underline" >MORE</a>
+           </li>
+         </ol>
+       </li>
+       <li class= "list">
+         <h4 class= "font-weight-bold">02. STRATEGY</h4>
+         <ol>
+           <li><p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+           <a href="#" style="color:white;text-decoration:underline">MORE</a>
+           </li> 
+         </ol>
+       </li>
+    </ol>
+    </div>
+    <div class= "col-sm-12">
+      <p class= "mx-5 px-5">Image from <a href= "#" style= "color:white;text-decoration:underline ">Freepik</a></p>
+    </div>
+  </div>
+</div>
+
+<div class= "container-fluid">
+  <div class= "row">
+    <div class= "col-sm-12 text-center"><br><br><br><br></div>
+      <div class= "col-sm-4 m-5 p-5 lnheight">
+      <h1 class= "thick" style= "color:dodgerblue">IT solutions</h1>
+      <p>We collaborate with you to create new value through digital transformation. We have hundreds of specialists at your service.</p>
+      <p>Image form <a href= "#" style= "color:dodgerblue;text-decoration:underline ">Freepik</a></p>
+      <a href= "#" class= "button">READ MORE</a>
+    </div>
+
+    <div class= "col-sm-6">
+      <img src= "Second_Website/s2Back.jpg" class= "img-fluid mx-auto d-block">
+    </div>
+  </div>
+
+<div class= "container-fluid bgcolor">
+   <div class= "row color-white">
+     <div  class= "col-sm-12 ">
+       <img  src=" https://images01.nicepage.io/c461c07a441a5d220e8feb1a/d95d435f43d65e0789c42a25/fff.jpg"  width="700px" height="400px"/>
+        <div class="col-sm-5 card-columns">
+           <div class="card">
+             <img class="card-img-top" src="" alt="Card image">
+             <div class="card-body text-center">
+             <p class="card-text">Development</p>
+             </div>
+           </div>
+           <div class="card">
+             <img class="card-img-top" src="" alt="Card image">
+             <div class="card-body text-center">
+             <p class="card-text">5G Network</p>
+             </div>
+           </div>
+           <div class="card">
+             <img style="card-img-top" src="" alt="Card image">
+             <div class="card-body text-center">
+             <p class="card-text">AI Products</p>
+             </div>
+           </div>
+           <div class="card">
+             <img class="card-img-top" src="" alt="Card image">
+             <div class="card-body text-center">
+             <p class="card-text">Automation</p>
+             </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class= "container-fluid">
+  <div class= "row">
+  <div class= "col-sm-12 text-center"><br><br><br><br></div>
+    <div class= "col-sm-7">
+      <img class="img-fluid" src="https://images01.nicepage.io/c461c07a441a5d220e8feb1a/e088ab31e95c5a4ea6ca9500/ffff.jpg" alt="Apps image">
+    </div>
+    <div class= "col-sm-4">
+      <h1 class= "mt-5 mr-0 thick" style= "color:dodgerblue;float:right;">IT solutions</h1>
+      <p class= "mr-0" style= "float:right;">We collaborate with you to create new value through digital transformation. We have hundreds of specialists at your service.</p>
+      <p class= "mr-0" style= "float:right;">Image from<a href= "#" style= "color:dodgerblue;text-decoration:underline ;float:right;"> Freepik</a></p>
+      <a href= "#" style= "float:right;"class= "mr-0 button">READ MORE</a>
+    </div>
+  </div>
+</div>
+
+<div class= "container-fluid">
+  <div class= "row">
+  <div class= "col-sm-12 text-center"><br><br><br></div>
+    <div class= "col-sm-6">
+      <div class= "m-4 h1">
+      We are directly involved in t​he process
+      </div>
+      <hr class= "border">
+    </div>
+    <div class= "col-sm-6">
+    <p class= "m-4" style= "color:grey">Nibh tortor id aliquet lectus. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. In hac habitasse platea dictumst quisque.</p>
+    <p class= "m-4">Non quam lacus suspendisse faucibus interdum. Tempor nec feugiat nisl pretium. Mi in nulla posuere sollicitudin aliquam ultrices. Quisque egestas diam in arcu cursus euismod quis. Libero volutpat sed cras ornare arcu dui vivamus arcu.</p>
+    <a href= "#"class= "m-3 button">READ MORE</a>
+    </div>
+    <div class= "col-sm-12 text-center"><br><br><br><br></div>
+  </div>
+</div>
+
+<div class= "container-fluid bgcolor">
+  <div class= "row">
+    <div class= "col-sm-12"><br><br><br><br><br></div>
+    <div class= "col-sm-12">
+      <p class= "h1 text-center lnheight text-white">Get in Touch!</p>
+      <p class= "h5m-5 p-5 text-center text-white">We align leaders around a shared purpose and strategic story that catalyzes their business and brand to take action.</p>
+      <div class="card-columns">
+        <div class="card">
+          <img style= "width:100px;height:100px;" class="card-img-top2" src="Second_Website/locicon.png" alt="Location image">
+          <div class="card-body text-center">
+          <h4 class="card-title text-grey">Address:</h4>
+          <p class="mb-0 card-text text-black">121 Rock Sreet, 21 Avenue,
+New York, NY 92103-9000</p>
+          </div>
+        </div>
+        <div class="card">
+          <img style= "width:100px;height:100px;" class= "card-img-top2" src="Second_Website/envicon.png" alt="Envelope image">
+            <div class="card-body text-center">
+            <h4 class="card-title color-grey">Email:</h4>
+            <p class="mb-0 card-text "><u>hello@company.com</u></p>
+            <p class="mb-0 card-text"><u>support@company.com</u></p>
+            </div>
+        </div>
+        <div class="card">
+          <img style= "width:100px;height:100px;" class="card-img-top2" src="Second_Website/phoneicon.png" alt="Phone image">
+            <div class="card-body text-center">
+            <h4 class="card-title">Call us:</h4>
+            <p class="mb-0 card-text">1 (234) 567-891</p>
+            <p class="mb-0 card-text">1 (234) 987-654</p>
+            </div>
+        </div>
+      </div>
+      <div class= "col-sm-12 text-center"><br><br><br><br></div>
+    </div>
+  </div>
+</div>
+
+<div class= "container-fluid black">
+  <div class= "row">
+    <div class= "col-sm-12 text-center">
+       <p class= "mx-5 last"><br>Sample text. Click to select the text box. Click again or double click to start editing the text.</p><br><br>
+       <p style= "font-size:12;"><a href= "#" style= "color:#a3e1f1; text-decoration:underline;"> Website Templates</a> created with <a href= "#" style= "color:#a3e1f1; text-decoration:underline;">Website Builder Software.</a></p>
+    </div>
+    <div class= "col-sm-12"><br></div>
+  </div>
+</div>
+</body>
+</html>
