@@ -1,0 +1,354 @@
+<html>
+<head>
+<title>DentalCare</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+* {
+  margin:0;
+  box-sizing: border-box;
+  font-family:'Open sans', sans-serif;
+  font-size:1rem;
+  line-height:1.6;
+}
+
+.row {
+  width:100%;
+  height:auto;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header {
+  background-color:#4867d6;
+  color:white;
+}
+
+.section1  {
+  background-image: url("https://images01.nicepage.io/c461c07a441a5d220e8feb1a/1dee8c20195351a6aed915b9/888-min.jpg");
+  width:100%;
+  height:auto;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  padding:5%;
+}
+
+.section2 {
+  background-color:#4867d6;
+  color:white;
+  background-size:cover;
+}
+
+.greybg {
+  background-color:#f2f2f2;
+}
+
+.container {
+  position:relative;
+}
+.bluebox {
+  background-color:#4867d6;
+  position:relative;
+  width: 450px; 
+  height: 700px; 
+  margin: 10% 0 0 115%;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item-left {
+  flex: 50%;
+  padding-right:5%;
+}
+
+.flex-item-right {
+  flex: 50%;
+  padding-right:5%;
+}
+
+.flex-item-rightx {
+  flex: 40%;
+  padding-right:10%;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap:wrap;
+  flex:50%;
+}
+
+.flex-container2 < img,div {
+  flex-direction:column;
+}
+  
+.column {
+  flex-basis:25%;
+}
+
+.container-right, .container-left {
+  flex: 38%;
+  padding-right:5%;
+}
+
+.container-center {
+  flex: 24%;
+  padding-right:5%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left, .container-right, .container-left, .container-center {
+    flex: 100%;
+  }
+  
+  .flex-container2 < img,div {
+    flex:100%;
+  }
+}
+
+.flex-container4 {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container4 > div {
+  background-color:#f2f2f2;
+  color: #808080;
+  text-align:center;
+  margin:3%;
+  width:300px;
+}
+
+input[type=text] {
+  background-color:#4867d6;
+  color:#fff;
+  width:100%;
+  border:none;
+  border-bottom:2px solid white;
+}
+
+.fa {
+  color:#fff;
+  text-decoration:none;
+}
+
+.last {
+  background-color:#333;
+  color:#fff;
+  text-align:center;
+}
+
+</style>
+</head>
+
+<!----------------------------------------------------------------------------------------------->
+<body>
+<div class= "row header">
+  <img src= "DentistWebsite/default-logo.png" style= "height:4%;width:5%;margin:2%;">
+</div>
+
+<div class= "row section1">
+  <div style= "margin:2%">
+    <div>
+      <p style= "font-size:1.5rem;margin-bottom:2%">about us</p>
+      <h4 style= "font-size:2.5rem;margin-bottom:4%">Dental Care Services</h4>
+    </div>
+    <div class= "flex-container1" style= "width:50%;">
+      <div class= "flex-item-left">
+        <p>Egestas sed tempus urna et pharetra. Amet risus nullam eget felis. Venenatis urna cursus eget nunc scelerisque <u>viverra mauris</u> in. Condimentum vitae sapien pellentesque habitant.</p>
+      </div>
+      <div class= "flex-item-right">
+      <p>Pretium lectus quam id leo in vitae turpis massa. Felis imperdiet proin fermentum leo vel orci. Auctor urna nunc id cursus metus aliquam. Rutrum tellus pellentesque.</p>
+      </div>
+    </div>
+  </div>
+  <p style= "margin-left:2%;clear:both;">Image from <a href= "#" style= "color: #000">Freepik.</a></p>
+</div>
+
+<!-------------------------------------------------------------------------------------------------->
+
+<div class= "row section2">
+  <div class= "flex-container1">
+    <div class= "container-left">
+      <h1 style= "padding:15%;font-weight:700;line-height:80px;font-size:3.5rem;">Preventive services include:</h1>
+    </div>
+    <div class= "container-center">
+      <ul style= "margin:25% 0% 0% 10%;">
+        <li style= "font-size:1.5rem;">Dentures</li>
+        <li style= "font-size:1.5rem;">Extractions</li>
+        <li style= "font-size:1.4rem;">Gum treatment</li>
+        <li style= "font-size:1.5rem;">Implants</li>
+        <li style= "font-size:1.5rem;">Oral surgery</li>
+        <li style= "font-size:1.5rem;">Laminates</li>
+        <li style= "font-size:1.5rem;">Tooth whitening</li>
+      </ul>
+    </div>
+    <div class= "container-right">
+      <p style= "margin:15% 15% 5% 15%;line-height:2rem;font-size:1rem">Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Velit ut tortor pretium viverra suspendisse potenti. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Vel fringilla est ullamcorper eget nulla.</p>
+      <button style= "background-color:#fff;color:#4867d6;border:none;margin:5% 0% 15% 15%;padding:1% 10%;font-weight:400;font-size:1rem;">BOOK APPOINTMNET</button>
+    </div>
+  </div>
+</div>
+
+<!-----------------------------------------x?--------------------------------------------------------->
+
+<div class= "row greybg">
+  <div class= "flex-container2">
+    <div class= "container">
+    <div class= "bluebox"></div>
+    <img src= "https://images01.nicepage.io/c461c07a441a5d220e8feb1a/92bdf60f12e557b0ace23f2f/sd-min.jpg" style= "width: 700px;height: 480px;top:20%;left:40%;z-index:2;position:absolute;margin-left:42%;">
+    <div style= "background-color:white;height:400px;width:650px;z-index:3;position:absolute;top:250px;left:90px;">
+      <h2 style= "font-size:2rem;margin:5%;padding:2%;">About Our Dental Clinic
+and why choose us? </h2>
+      <p style= "font-size: 1.25rem; font-weight: 200; line-height: 1.8;margin-left:5%;padding:2%;">Excepteur sint occaecat cupidatat non <a href="#">proident</a>, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      <p style= "margin:0% 7%">Image from <a href= "#">Freepik.</a></p>
+      <button style= "margin:3% 7%;padding:1% 6%;background-color:#4867d6;color:white;border:none;">CONTACT US</button>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-------------------------------------------------------------------------------------------------->
+
+<div class= "row" style= "background-color: white">
+  <p style= "font-weight:200;font-size:2.5rem;color:#4867d6;margin:2%;text-align:center;">Our Services</p>
+  <p style= "color:grey;text-align:center">Consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+
+  <div class= "flex-container4">
+    <div>
+      <img src= "DentistWebsite/tbrushicon1.png"/>
+      <h6 style= "font-size:1.5rem;color:#4867d6;margin:5%;line-height:1.5;">DENTAL CARE</h6>
+      <p style= "margin:5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+    </div>
+    <div>
+      <img src= "DentistWebsite/tbrushicon2.png"/>
+      <h6 style= "font-size:1.5rem;color:#4867d6;margin:5%;line-height:1.5;">Oral surgery</h6>
+      <p style= "margin:5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+    </div>
+    <div>
+      <img src= "DentistWebsite/tbrushicon3.png"/>
+      <h6 style= "font-size:1.5rem;color:#4867d6;margin:5%;line-height:1.5;">IMPLANTS</h6>
+      <p style= "margin:5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+    </div>
+    <div>
+      <img src= "DentistWebsite/tbrushicon4.png"/>
+      <h6 style= "font-size:1.5rem;color:#4867d6;margin:5%;line-height:1.5;">CROWNS</h6>
+      <p style= "margin:5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+    </div>
+    <div>
+      <img src= "DentistWebsite/tbrushicon5.png"/>
+      <h6 style= "font-size:1.5rem;color:#4867d6;margin:5%;line-height:1.5;">EMERGENCY CARE</h6>
+      <p style= "margin:5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+    </div>
+    <div>
+      <img src= "DentistWebsite/tbrushicon6.png"/>
+      <h6 style= "font-size:1.5rem;color:#4867d6;margin:5%;line-height:1.5;">EXTRACTIONS</h6>
+      <p style= "margin:5%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+    </div>
+  </div>
+  <button style= "transform:translate(500px,0%);margin:3% 5%;padding:0.5% 3%;background-color:#4867d6;color:white;border:none;">CONTACT US</button>
+</div>
+
+<!-------------------------------------------x?---------------------------------------------------->
+
+<div class= "row greybg">
+  <div class= "flex-container1">
+    <div class= "flex-item-left container" style= "flex:50%;">
+      <img src= "https://images01.nicepage.io/c461c07a441a5d220e8feb1a/981f2014b9005f9c96de73c5/sdff-min.jpg" style= "width:650px;height:500px;margin:5%;z-index:1;position:absolute;">
+      <div style= "background-color:#4867d6;color:#fff;top:300px;left:10%;height:330px;width:500px;z-index:2;position:absolute;">
+        <h1 style= "font-family:serif;font-size:3rem;font-weight:650;margin:5% 10%;line-height:50px">General Dentist & Prosthodontist <h1>
+        <p style= "color:#afbdef;margin:5% 10%;">Image from <a href= "#" style= "color:#afbdef;">Freepik.</a></p>
+        <button style= "margin:0% 10%;padding:2% 10%;background-color:#fff;color:#4867d6;border:none;">BOOK APPOINTMENT</button>
+      </div>
+    </div>
+    <div class= "flex-item-rightx">
+      <p style= "font-size:1.2rem;margin:15% 5% 5% 5%;color:#4867d6;">Highly Experienced Team</p>
+      <p style= "margin:0% 5%;">Fames ac turpis egestas sed tempus urna. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Massa sed elementum tempus egestas sed sed. </p><hr style= "margin:5% 5%;">
+      <p style= "font-size:1.2rem;margin:5% 0% 5% 20%;color:#4867d6;">Free Dental Consultation</p>
+      <p style= "margin-left:20%;">Fames ac turpis egestas sed tempus urna. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Massa sed elementum tempus egestas sed sed. </p>
+    </div>
+    </div><br><br><br><br><br><br>
+  </div>
+</div>
+
+<!----------------------------------------------------------------------------------------------->
+
+<div class= "row" style= "background-color:#4867d6;color:#fff;padding:5% 20%">
+  <h1 style= "font-size:2rem;font-weight:700;margin:2% 0%;">Our Mission</h1>
+    <ul style= "margin-bottom:5%;">
+      <li>To extend equally to all New Yorkers, regardless of their ability to pay, comprehensive health services of the highest quality in an atmosphere of humane care, dignity, and respect. </li>
+      <li>To promote and protect, as both innovator and advocate, the health, welfare, and safety of the people of the City of New York.</li>
+      <li>Fringilla urna porttitor rhoncus dolor purus non enim praesent. Nibh cras pulvinar mattis nunc sed. Enim blandit volutpat maecenas volutpat blandit. Egestas tellus rutrum tellus pellentesque. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. </li>
+    </ul>
+  <h1 style= "font-size:2rem;font-weight:700;margin:2% 0%;">Our Values</h1>
+    <ul style= "margin-bottom:5%;">
+      <li>It will help us offer our patients a better experience when under our care and will increase staff awareness to become better engaged with the mission and vision of the organization. </li>
+      <li>Velit ut tortor pretium viverra suspendisse potenti. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Vel fringilla est ullamcorper eget nulla facilisi etiam. </li>
+      <li>Accumsan sit amet nulla facilisi morbi tempus iaculis urna. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Semper feugiat nibh sed pulvinar proin gravida hendrerit.
+</li>
+    </ul>
+    <button style= "font-size:0.8rem; font-weight:700; margin:3% 5%;padding:1.5% 10%;background-color:#fff; color:#4867d6; border:none;">CONTACT US</button>
+</div>
+
+<!------------------------------------------working------------------------------------------------->
+
+<div class= "row greybg" style= "height:900px;">
+  <div class= "flex-container2">
+    <div class= "container" style= "margin:5% 15%">
+    <img src= "https://images01.nicepage.io/c461c07a441a5d220e8feb1a/5e4dd8f594bb5fd7840adb43/ddsds-min1.jpg" style= "width: 900px;height: 550px;top:20%;left:40%;position:absolute">
+    <div style= "background-color:white;height:450px;width:450px;z-index:1;position:absolute;top:350px;left:550px;">
+      <h2 style= "font-size:3rem;margin-left:5%;padding:5% 0% 0% 2%;">High Quality Treatment</h2>
+      <p style= "font-size: 1rem;margin-left:5%;padding:0% 2%;">Nibh tortor id aliquet lectus proin nibh nisl condimentum. Libero id faucibus nisl tincidunt eget nullam. Justo eget magna fermentum iaculis eu non diam phasellus. Arcu risus quis varius quam quisque id diam vel quam.</p>
+      <button style= "margin:3% 7%;padding:2% 15%;background-color:#4867d6;color:white;border:none;">BOOK NOW</button>
+      <p style= "margin:0% 7%">Image from <a style= "color:#000" href= "#">Freepik.</a></p><br><br><br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!------------------------------------------------------------------------------------------->
+
+<div style= "background-color:#4867d6;color:#fff;">
+<div class= "flex-container1">
+  <div class= "flex-item-left">
+    <form style= "margin:15%">
+      <input type= "text" placeholder= "Enter your Name" style= "buttonbg"><br><br>
+      <input type= "text" placeholder= "Enter a valid email address" style= "buttonbg"><br><br>
+      <textarea rows= "5" cols= "30%" style= "background-color:#4867d6;color:#fff;border:none;border-bottom:2px solid white;"></textarea>
+      <button style= "margin:5% 1%;padding:1.5% 10%;background-color:#4867d6;color:white;border-color:#fff;border-style:solid;">SUBMIT</button>
+    </form>
+  </div>
+  <div class= "flex-item-right">
+    <p style= "margin:10% 0 3% 10%;font-size:4rem;">CONTACT US</p>
+    <a style= "margin-left: 15%;font-size:2.5rem;" href="#" class="fa fa-facebook"></a>
+    <a style= "margin-left: 5%;font-size:2.5rem;" href="#" class="fa fa-twitter"></a>
+    <a style= "margin-left: 5%;font-size:2.5rem;" href="#" class="fa fa-vimeo"></a>
+    <a style= "margin-left: 5%;font-size:2.5rem;" href="#" class="fa fa-instagram"></a>
+    <br><br><br><br><p style= "margin:5% 10%;font-size:2rem;">1 (234) 567-891</p>
+    <p style= "margin:5% 10%;font-size:2rem;">1 (234) 987-654</p>
+  </div>
+</div>
+</div>
+
+<!--------------------------------------------------------------------------------------->
+
+<div class= "row last">
+  <div class= "col">
+    <p style= "font-size:14;padding:0% 30%;"><br><br>Sample text. Click to select the text box. Click again or double click to start editing the text.</p><br><br><br><br>
+       <p style= "font-size:12;"><a href= "#" style= "color:#a3e1f1; text-decoration:underline;font-size:12;"> Website Templates</a> created with <a href= "#" style= "color:#a3e1f1; text-decoration:underline;font-size:12;">Website Builder Software.</a></p><br>
+  </div>
+</div>
+</body>
+</html>
+<!----------------------------------The End------------------------------------------------->
+
