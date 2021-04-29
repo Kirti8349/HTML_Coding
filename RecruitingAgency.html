@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang= "en-US">
+<head>
+<title>RecruitingAgency</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Roboto,sans-serif;
+}
+
+.container{
+  background-image: url("Second_Website/bgicon.jpeg"); 
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height:auto;
+  position:relative;
+}
+
+.header  {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section  {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.section-left  {
+  flex-basis: 50%;
+  margin:20% 0% 5% 5%;
+}
+
+.container1  {
+  width: 100%;
+  background-color:#fff;
+  height: auto;
+  border: 2px solid;
+  color: #fff;
+}
+   
+.feature  {
+  color: #111;
+  margin: 5% 0 0 5%; 
+}
+
+.flexContainer2  {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.flexContainer2 > div  {
+  background-color: #fff;
+  color:black;
+  width: 45%;
+  margin: 10px;
+  text-align: left;
+}
+
+.flexContainer3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexItemLeft1 , .flexItemRight1 {
+  background-color:#fff;
+  color:#000;
+  flex: 30%;
+  padding:3%;
+}
+
+.flexItemCenter {
+  background-color:#4867d6;
+  color:#fff;
+  flex: 30%;
+  padding:3%;
+}
+
+.flexContainer4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexItemLeft {
+  flex: 50%;
+  padding-right:5%;
+}
+
+.flexItemRight {
+  flex: 50%;
+  padding-right:5%;
+}
+
+.flexContainer5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexItemLeft5 {
+  flex: 25%;
+  padding-right:5%;
+}
+
+.flexItemRight5 {
+  flex: 25%;
+  padding-right:5%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flexItemLeft, .flexItemRight, .flexItemLeft1 , .flexItemRight1, .flexItemCenter, .flexItemLeft5, .flexItemRight5  {
+    flex: 100%;
+  }
+}
+
+.button {
+  background-color:#f2f2f2;
+  border:none;
+  padding:2%;
+  margin-bottom:2%;
+  text-align:left;
+}
+
+.button1 {
+  width:100%;
+}
+.button:hover  {
+  background-color: #c8c8c8;
+}
+
+.button:active {
+  background-color: #4867d6;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  float:right;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.flexcontainer6 {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.flexcontainer6 > div {
+  background-color: #fff;
+  color:black;
+  width: 23%;
+  margin: 10px;
+  text-align: center;
+}
+
+input[type=text] {
+  background-color:#4867d6;
+  color:#fff;
+  width:100%;
+  border:none;
+  border-bottom:2px solid white;
+  padding:3%;
+}
+
+.last {
+  background-color:#333;
+  color:#fff;
+  text-align:center;
+  width:100%;
+}
+</style>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("Demo");
+  if (x.className.indexOf("w3-show") == -1) { 
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</head>
+
+<body>
+
+<!--------------------------------------------------------------------------->
+
+<div class="container">
+  <div class="header">
+    <h3>Logo</h3>
+    <span><i class="fa fa-bars icon" aria-hidden="true"></i></span>
+  </div>
+  <div class="section">
+    <div class= "section-left">
+        <p style= "font-size:3rem;font-weight:700;color:#fff;">Recruitment Agency</h2>
+        <p style= "color: #fff;font-weight: 700;margin: 10px;line-height:1.5rem;margin:2% 0% 10% 0%;">Recruitment Agency that strives to help businesses put together a staff of highly efficient and skilled professionals, and also serve employees by opening up new vistas of job opportunities for them. We take pride in lending our hand in creating the kind of professional environment that would fulfill the mission and vision that enterprises are built upon.<br><br><br><br></p>
+    </div>
+  </div>
+</div>
+  
+<!--------------------------------------------------------------------------->  
+  
+<div class="container1">
+  <div class="feature">
+    <p style="color:#000;font-size:3.3rem;font-weight:700;">Recruitment <span style= "color:#000;text-decoration:underline;font-size:2rem;font-weight:500;">Agency</span></p>
+    <p style="margin-top:2%;color: #a9a9a9;font-weight:100;line-height:1.5rem;">Recruitment Agency that strives to help businesses put together a staff of highly efficient and skilled professionals, and also serve <br> employees by opening up new vistas of job opportunities for them. We take pride in lending our hand in creating the kind of <br> professional environment that would fulf​ill the mission and vision that enterprises are built upon.</p><br>
+  </div>
+  <div class= "flexContainer2" style= "margin:2% 5%;">
+    <div>
+      <div style= "float:left;width:25%;">
+        <i class="fa fa-mobile" aria-hidden="true" style="margin:5% 0% 0% 20%;padding:0% 15%;background-color: #4867d6;color:#fff;border-radius:100%;font-size:5rem;"></i>
+      </div>
+      <div style= "float:left;width:75%;">
+        <p style="margin-bottom:4%;color:#000;font-size:1.3rem;font-weight:700;">Project Based Recruitment</h3>                  
+        <p style="color:#a9a9a9;margin:2% 0% 7% 0%;font-size:1rem;line-height:1.3rem;">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+      </div>
+    </div>
+    
+    <div>
+      <div style= "float:left;width:25%;">
+        <i class="fa fa-cog" aria-hidden="true" style="margin:5% 0% 0% 20%;padding:5% 10%;background-color: #4867d6;color:#fff;border-radius:100%;font-size: 4rem;"></i>
+      </div>
+      <div style= "float:left;width:75%;">
+        <p style="margin-bottom:4%;color:#000;font-size:1.3rem;font-weight:700;">RPO Services</p>                  
+        <p style="color:#a9a9a9;margin:2% 0% 7% 0%;font-size:1rem;line-height:1.3rem;">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+      </div>
+    </div>
+    
+    <div>
+      <div style= "float:left;width:25%;">
+        <i class="fa fa-file-code-o" aria-hidden="true" style="margin:5% 0% 0% 20%;padding:5% 10%;background-color:#4867d6; color:#fff; border-radius:100%;font-size: 3.5rem;"></i>
+      </div>
+      <div style= "float:left;width:75%;">
+        <p style="margin-bottom:4%;color:#000;font-size:1.3rem;font-weight:700;">Overseas Recruitment Agency </p>                  
+        <p style="color:#a9a9a9;margin:2% 0% 7% 0%;font-size:1rem;line-height:1.3rem;">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+      </div>
+    </div>
+    
+    <div>
+      <div style= "float:left;width:25%;">
+        <i class="fa fa-user-o" aria-hidden="true" style="margin:5% 0% 0% 20%;padding:5% 10%;background-color: #4867d6;color:#fff;border-radius:100%;font-size: 3.8rem;"></i>
+      </div>
+      <div style= "float:left;width:75%;">
+        <p style="margin-bottom:4%;color:#000;font-size:1.3rem;font-weight:700;">Expat Recruitment</p>                  
+        <p style="color:#a9a9a9;margin:2% 0% 7% 0%;font-size:1rem;line-height:1.3rem;">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---------------------------------------------------------------------------------->
+
+<div class= "flexContainer3" style= "margin:10% 5%;">
+  <div class= "flexItemLeft1">
+    <h2>Recruiting Model</h2><hr style= "width:60%;color:#4867d6; border: 3px solid #4867d6;">
+    <p style= "font-size:1rem;line-height:2rem;">Engage With Service Models For Enhancing Business Processes Alliance International boasts a set of different recruitment processes that provide perfect answer to your needs. Supported by effectively planned payroll processes, it helps you maximize your business functions and output through quality resources.</p>
+    <p style= "font-size:1rem;line-height:2rem;">We understand that every company has a different hiring process and specific sets of skills. That’s why we offer solutions tailored to your needs. We set premium on timely delivery and quality.</p>
+  </div>
+  <div class= "flexItemCenter">
+    <h2>Service Models</h2><hr style= "width:60%;color:#fff;border: 3px solid #fff;">
+    <p style= "font-size:1rem;line-height:2rem;">We understand that every company has a different hiring process and candidate needs. That’s why we offer customized, solutions oriented recruitment process outsourcing models that meet every unique requirement.</p>
+    <p style= "font-size:1rem;line-height:2rem;">Our recruiters team is focused on effectiveness, fast solutions and increased business outcomes. </p><br>
+    <p style= "text-decoration:underline;">read more</p>
+  </div>
+  <div class="flexItemRight1">
+    <ul style= "margin-top:5%;line-height:2rem;border: 3px solid #fff;">
+      <li>Access to partners locally who are reliable.</li>
+      <li>Reduction of risks in setting up the business in a foreign nation.</li>
+      <li>Reduction of time in setting up a viable concern of repute.</li>
+      <li>Swift handling of services with expertise.</li>
+    </ul>
+  </div>
+</div>
+
+<!----------------------------------------------------------------------------------->
+
+<div class= "flexContainer4">
+  <div class= "flexItemLeft">
+    <div style= "position:cover;margin:5% 0% 0% 10%;">
+    <img src= "https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/5af9723da7b056f29b36d4e5/pexels-photo-6146810.jpeg" style= "width:550px;height:650px;">
+    </div>
+  </div>
+  <div class= "flexItemRight">
+    <div style= "margin-top:10%;">
+      <p style= "font-size:3.3rem;font-weight:700;">Recruitment <span style= "text-decoration:underline;font-weight:500;font-size:2rem;">Model</span></p>
+      <p style= "font-size:1.1rem;line-height:2rem;padding-right:7%">Engage With Service Models For Enhancing Business Processes. We boasts a set of different recruitment processes that provide perfect answer to your needs. Supported by effectively planned payroll processes, it helps you maximize your business functions and output through quality resources.</p><br>
+      <p style= "font-size:1.1rem;line-height:2rem;padding-right:7%">We understand that every company has a different hiring process and specific sets of skills. That’s why we offer solutions tailored to your needs. We set premium on timely delivery and quality.</p><br><br>
+      <button style= "border:2px solid black;background-color:#fff;padding: 2% 5%;"><b>Read More</b></button>
+    </div>
+  </div>
+  <div style= "margin:10% 5% 0% 5%;font-size:1.3rem;padding-right:15%;">We understand that every company has a different hiring process and specific sets of skills. That’s why we offer solutions tailored to your needs. We set premium on timely delivery and quality.</div>
+</div>
+
+<!----------------------------------------------------x-------------->
+
+<div style= "background-color:#f2f2f2;">
+  <div style= "margin:5%;">
+    <p style= "font-size:3.3rem;font-weight:700;"><br>Recruitment <span style= "text-decoration:underline;font-weight:500;font-size:2rem;">Agency</span></h2>
+    <p style= "margin:2% 0% 0% 0%;line-height:2rem;">Recruitment Agency that strives to help businesses put together a staff of highly efficient and skilled professionals, and also serve employees by opening up new vistas of job opportunities for them. We take pride in lending our hand in creating the kind of professional environment that would fulfill the mission and vision that enterprises are built upon. What’s more, we are operating in a highly dynamic and diversified global markets. At present, we have our sales appearance in major cities of India like Delhi, Hyderabad, Kolkata, Chennai. Mumbai, Pune etc and also in foreign locations like UAE, Dubai, Saudi Arabia, USA, Canada, UK, Malaysia, Singapore etc.</p>
+     <svg height="150" width="150" style= "float:right;">
+       <circle cx="80" cy="70" r="60" stroke="#4867d6" stroke-width="3" fill="#4867d6"/>
+     </svg> 
+  </div>
+  
+  <div class= "flexContainer5" style= "margin:20% 5% 5% 5%;">
+    <div class= "flexItemLeft5">
+      <img src= "https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/8f9d6b05d9d956f28ababa60/pexels-photo-7196337.jpeg" style= "width:550px;height:670px;">
+    </div>
+    <div class= "flexItemRight5">
+      <div style= "background-color:#4867d6;padding:15% 0%;line-height:2rem;font-size:1.3rem;color:#fff;">
+        <h4>You know, my friends, with what a brave carouse I made a Second Marriage in my house; favored old barren reason from my bed, and took the daughter of the vine to spouse.</h4>
+      </div>
+      <div style= "margin:20% 10%">
+        <img src= "Second_Website/displaypic.jpeg" style= "float: left;width:150px;height:150px;border-radius:100%;">
+        <h4 style= "float: left;margin:10% 0% 0% 10%;">Paul Larson</h4>
+        <p style= "float: left;margin:5% 10%;"><i>art director</i></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-----------------------------section5-------------------------------------------------------->
+
+<div class="w3-container" style= "margin:10% 5%;">
+  <h1 style= "font-size:3.5rem;font-weight:700;margin-bottom:4%;">Faq</h1>
+  <div class="w3-dropdown-click">
+    <button onclick="myFunction()" class="button button1">What's included in the quoted daily rate?<i class="arrow down"></i></button>
+    <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="#" class="w3-bar-item w3-button">Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</a>
+    </div>
+    
+    <button onclick="myFunction()" class="button button1">What is the rental's mileage plan?<i class="arrow down"></i></button>
+    <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="#" class="w3-bar-item w3-button">Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</a>
+    </div>
+    
+    <button onclick="myFunction()" class="button button1"> What are your extra insurance options?<i class="arrow down"></i></button>
+    <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="#" class="w3-bar-item w3-button">Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</a>
+    </div>
+    
+    <button onclick="myFunction()" class="button button1">Do I need to return the rental with a full tank?<i class="arrow down"></i></button>
+    <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="#" class="w3-bar-item w3-button">Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</a>
+    </div>
+  </div>
+</div>
+
+<!------------------------------------------------------------------------------------>
+
+<div style= "background-color:#4867d6;color:#fff;width:100%;"><br><br>
+<div class= "flexcontainer6" style= "margin:5%">
+  <div>
+    <i class="fa fa-map-marker" aria-hidden="true" style= "margin:5%;color:#4867d6;font-size:5rem"></i>
+    <p style= "font-size:1.3rem;font-weight:700;margin:2%;padding:2%;">OUR MAIN OFFICE</p>
+    <p style= "margin:2% 2% 5% 2%;padding:5%;">SoHo 94 Broadway St New York, NY 1001</p>
+  </div>
+  <div>
+    <i class="fa fa-phone" aria-hidden="true" style= "margin:5%;color:#4867d6;font-size:5rem"></i>
+    <p style= "font-size:1.3rem;font-weight:700;margin:2%;padding:2%;">PHONE NUMBER</p>
+    <p >234-9876-5400 </p>
+    <p style= "margin:2% 2% 5% 2%;padding:5%;">888-0123-4567 (Toll Free)</p>
+  </div>
+  <div>
+    <i class="fa fa-fax" aria-hidden="true" style= "margin:5%;color:#4867d6;font-size:5rem"></i>
+    <p style= "font-size:1.3rem;font-weight:700;margin:2%;padding:2%;">FAX</p>
+    <p style= "margin:2% 2% 5% 2%;padding:5%;">1-234-567-8900</p>
+  </div>
+  <div>
+    <i class="fa fa-envelope" aria-hidden="true" style= "margin:5%;color:#4867d6;font-size:5rem"></i>
+    <p style= "font-size:1.3rem;font-weight:700;margin:2%;padding:2%;">EMAIL</p>
+    <p style= "color:#4867d6;margin:2% 2% 5% 2%;padding:5%;"><u>hello@theme.com</u></p>
+  </div>
+</div>
+
+<div class= "flexContainer5">
+   <div class= "flexItemLeft5" style= "margin:5%;">
+     <p style= "font-size:3rem;font-weight:700;">Contact<span style= "font-size:2rem;font-weight:500"> <u>info</u></span></p>
+     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     <img src= "Second_Website/bgicon.jpeg" style= "width:250px;height:250px;border-radius:100%;">
+   </div>
+   <div class= "flexItemRight5">
+     <form style= "margin:10%">
+      <label for= "email" style= "font-weight:600;">Email</label>
+      <input type= "text" id= "email" placeholder= "Enter your Name"><br><br>
+      <label for= "name" style= "font-weight:600;">Name</label>
+      <input type= "text" id= "name" placeholder= "Enter a valid email address"><br><br>
+      <label for= "message" style= "font-weight:600;">Message</label>
+      <textarea id= "message" rows= "5" cols= "30%" style= "background-color:#4867d6;color:#fff;border:none;border-bottom:2px solid white;padding:3%;" placeholder= "Enter your message"></textarea>
+      <button style= "margin:5% 1%;padding:2% 10%;background-color:#fff;color:#000;width:100%;border:none;">SUBMIT</button>
+    </form>
+   </div> 
+</div>
+</div>
+
+<!------------------------------------------------------------------------------------------->
+
+<div class= "last">
+  <h6 style= "font-size:1rem;padding:0% 30%;"><br><br>Sample text. Click to select the text box. Click again or double click to start editing the text.</h6><br><br><br><br>
+  <p style= "font-size:0.8rem;"><a href= "#" style= "color:#ffd600; text-decoration:underline;font-size:12;"> Website Templates</a> created with <a href= "#" style= "color:#ffd600; text-decoration:underline;font-size:12;">Website Builder Software.</a></p><br>
+</div>
+</body>
+</html>
